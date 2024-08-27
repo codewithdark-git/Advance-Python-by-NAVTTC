@@ -1,0 +1,23 @@
+When analyzing time complexity for big O notation, here are some key tips to consider:
+
+1. **Identify the Basic Operations**: Determine the basic operation that is being counted in the algorithm. This could be comparisons, additions, or any other fundamental operation that the algorithm performs.
+
+2. **Focus on the Worst-Case Scenario**: Big O notation typically describes the worst-case scenario. Analyze the algorithm's performance in the most time-consuming situation.
+
+3. **Ignore Constants and Lower Order Terms**: Big O notation abstracts away constants and lower-order terms. For instance, if an algorithm has a time complexity of \(3n^2 + 5n + 7\), it is simplified to \(O(n^2)\).
+
+4. **Consider Nested Loops**: When dealing with nested loops, multiply the complexities of the loops. For example, a loop running \(n\) times inside another \(n\)-times loop results in \(O(n^2)\).
+
+5. **Analyze Recursive Algorithms**: For recursive algorithms, use the Master Theorem or recurrence relations to determine time complexity. The recurrence relation often involves solving equations like \(T(n) = aT(n/b) + f(n)\).
+
+6. **Look at Input Size Variations**: Consider how the algorithm's performance changes with different input sizes. Time complexity is generally a function of input size \(n\).
+
+7. **Use Simplified Cases**: For complex expressions, simplify them to understand the dominating term. For example, in \(O(n \log n + n)\), the dominating term is \(O(n \log n)\).
+
+8. **Consider Space Complexity**: Sometimes time complexity is analyzed alongside space complexity. An algorithm might have good time complexity but poor space complexity, or vice versa.
+
+9. **Practice Common Patterns**: Familiarize yourself with common time complexities and their patterns, such as \(O(1)\), \(O(n)\), \(O(n \log n)\), \(O(n^2)\), etc. Recognizing these patterns can make it easier to analyze new algorithms.
+
+10. **Verify with Examples**: Test the algorithm with various input sizes to verify your time complexity analysis. This empirical approach can help confirm your theoretical analysis.
+
+By applying these tips, you can more effectively analyze and understand the time complexity of different algorithms.

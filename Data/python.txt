@@ -1,1 +1,2 @@
-this is a txt file for testing
+This is a new line.
+Appending this line.
